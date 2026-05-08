@@ -7,7 +7,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     font-family: 'Poppins', sans-serif;
+}
+#mode{
+    height: 3rem;
+    width: 3rem;
+    font-size: 1rem;
+    background-color:#ff9a9e;
+    padding:0.1rem;
+    border: none;
+    border-radius: 12px;
 }
 .container{
     margin-top: 70px;
@@ -34,7 +44,7 @@ body{
     color: rgb(193, 27, 77);
 }
 
-button{
+#check{
     height: 80px;
     width: 100px;
     border:none;
@@ -48,7 +58,7 @@ button{
     transition: 0.3s;
 }
 
-button:hover{
+#check:hover{
     background-color: rgb(59, 40, 111);
     transform: scale(1.05);
     cursor: pointer;
