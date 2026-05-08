@@ -9,6 +9,10 @@ body{
     align-items: center;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    gap: 0.85rem;
+        transition: 0.5s;
+
 }
 #mode{
     height: 3rem;
@@ -18,11 +22,13 @@ body{
     padding:0.1rem;
     border: none;
     border-radius: 12px;
+        transition: 0.5s;
+
 }
 .container{
-    margin-top: 70px;
-    width:600px;
-    height: 600px;
+    /* margin-top: 70px; */
+    width:550px;
+    height: 550px;
     border: none;
     border-radius: 1.2rem ;
     /* background-color: #ffdee9; */
@@ -32,6 +38,8 @@ body{
     align-items: center;
     flex-direction: column;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        transition: 0.5s;
+
 }
 .text{
     width: 300px;
@@ -55,7 +63,7 @@ body{
     text-align: center;
     font-size: 1.8rem;
     padding:0;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 #check:hover{
@@ -69,9 +77,20 @@ h2{
     /* color: #5a189a;
      */color: #2d1e2f;
     font-size: 1.6rem;
+        transition: 0.5s;
+
 }
-@media(max-width:500px){
-    .container{
-        margin-bottom: 2rem;
+@media(max-width:670px){
+    body{
+        overflow-x: hidden;
     }
+    .container{
+        width: 100%;
+        height: 600px;
+        margin: 1.8rem;
+    }
+    .text{
+        width:80%;
+    }
+
 }
