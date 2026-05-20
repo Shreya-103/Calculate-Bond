@@ -4,6 +4,7 @@ Check your friendship bond in a fun way with this simple web app!
 <h3>✨ What is it?</h3>
 The Friendship Bond Calculator is a playful and lighthearted website that generates a random "bond percentage" between two names. It's not scientific – it's just for fun and smiles! 😄
 <h3>
+<h3> It includes mode change too </h3>
 🛠️ How it works:</h3>
 <ul>
 <li>Enter two names.</li>
