@@ -1,20 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
-    <link rel="stylesheet" href="./calc.css">
+    <title>Friendship Lab</title>
+    <link rel="stylesheet" href="calc.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
-<body>
-    <div class="container">
-        <div class="name"> <input type="text" id="text1" class="text" required placeholder="name"> </div>
-        <div class="name"> <input type="text" id="text2" class="text" required placeholder="name"> </div>
-        <button id="check">Check</button>
-        <h2>Enter Two Names to check their bond</h2>
-    </div>
-     <button id="mode" onclick="changeMood()">🌙</button>
 
-    <script src="./calc.js"></script>
+<body>
+    <button id="mode">🌙</button>
+    <div class="container">
+        <div class="header">
+            <h1>🍁 Friendship Lab</h1>
+            <p> Analyze your friendship compatibility </p>
+        </div>
+        <div class="avatars">
+            <div class="avatar" id="avatar1">
+                ?
+            </div>
+            <div class="handshake">
+                🤝
+            </div>
+            <div class="avatar" id="avatar2">
+                ?
+            </div>
+        </div>
+
+        <div class="inputBox">
+            <input type="text" id="text1" class="text" placeholder="Enter First Name">
+            <input type="text" id="text2" class="text" placeholder="Enter Second Name">
+        </div>
+
+        <button id="check"> Analyze Friendship </button>
+
+        <div class="loader" id="loader">
+            <div class="loaderBar"></div>
+            <p> Scanning Friendship Bonding... </p>
+        </div>
+
+        <div class="resultCard">
+            <div class="scoreRing" id="scoreRing">
+                <span id="scoreText"> 0%</span>
+            </div>
+            <h2 id="result">Enter two names to begin </h2>
+            <div id="badge" class="badge"></div>
+        </div>
+    </div>
+    <script src="calc.js"></script>
 </body>
+
 </html>
