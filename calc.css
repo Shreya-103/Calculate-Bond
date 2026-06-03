@@ -11,7 +11,7 @@ body{
     justify-content:center;
     align-items:center;
     padding:2rem;
-background:linear-gradient(135deg, #dbeafe,  #f5f3ff);
+    background:linear-gradient(135deg, #dbeafe,  #f5f3ff);
     overflow-x:hidden;
     transition:.5s;
 }
@@ -19,7 +19,7 @@ background:linear-gradient(135deg, #dbeafe,  #f5f3ff);
     width:550px;
     max-width:100%;
     padding:2rem;
-background:linear-gradient(  135deg, #ffffff, #eef2ff);
+    background:linear-gradient(  135deg, #ffffff, #eef2ff);
     border-radius:30px;
     box-shadow:   0 20px 50px rgba(0,0,0,0.12);
     text-align:center;
@@ -293,21 +293,6 @@ body.dark #mode{
         transform:translateX(-10px);
     }
 }
-
-
-/* .legendary{
-    animation:rainbow 3s linear infinite;
-}
-
-@keyframes rainbow{
-    0%{
-        filter:hue-rotate(0deg);
-    }
-
-    100%{
-        filter:hue-rotate(360deg);
-    }
-} */
 
 @media(max-width:600px){
     .container{
