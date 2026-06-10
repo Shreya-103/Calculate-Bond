@@ -1,4 +1,4 @@
-# Friendship Lab
+# Friendship Analyzer
 
 A fun and interactive web application that analyzes friendship compatibility between two names. This project started as a simple bond checker and was later redesigned with a modern user interface, animations, dark mode support, and engaging user interactions.
 
