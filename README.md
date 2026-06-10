@@ -26,6 +26,17 @@ Friendship Lab allows users to enter two names and receive a friendship compatib
 >CSS3
 >Vanilla JS
 
+# Through this project, I practiced:
+<ul>
+<li>DOM Manipulation</li>
+<li>Event Handling</li>
+<li>CSS Animations</li>
+<li>Responsive Design</li>
+<li>Dark Mode Implementation</li>
+<li>User Experience Enhancements</li>
+<li>JavaScript Logic Building</li>
+</ul>
+
 # Project Structure
 `Friendship-Analyzer/
 ├── index.html
@@ -45,7 +56,7 @@ Visual effects may be triggered.
 Friendship Levels
 Score Range	Level
 96 - 100	Legendary Friendship
-81 - 95	Unbreakable Squad
+81 - 95	Unbreakable duo
 61 - 80	Best Buddies
 41 - 60	Good Friends
 21 - 40	Casual Friends
@@ -76,14 +87,3 @@ Friendship history using Local Storage
 Multiple friendship themes
 Downloadable friendship cards
 Learning Outcomes
-
-# Through this project, I practiced:
-<ul>
-<li>DOM Manipulation</li>
-<li>Event Handling</li>
-<li>CSS Animations</li>
-<li>Responsive Design</li>
-<li>Dark Mode Implementation</li>
-<li>User Experience Enhancements</li>
-<li>JavaScript Logic Building</li>
-</ul>
