@@ -66,7 +66,6 @@ Dark mode support
 Confetti effects
 Responsive layout
 Loading animations
-Easter eggs and hidden interactions
 Improved user experience
 
 # Future Improvements
